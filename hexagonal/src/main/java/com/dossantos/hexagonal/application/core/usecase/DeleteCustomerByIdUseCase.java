@@ -5,7 +5,6 @@ import com.dossantos.hexagonal.application.ports.in.FindCustomerByIdInputPort;
 import com.dossantos.hexagonal.application.ports.out.DeleteCustomerByIdOutputPort;
 import org.springframework.stereotype.Component;
 
-@Component
 public class DeleteCustomerByIdUseCase implements DeleteCustomerByIdInputPort {
 
     private final FindCustomerByIdInputPort findCustomerByIdInputPort;
