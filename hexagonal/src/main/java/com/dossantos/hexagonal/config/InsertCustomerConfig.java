@@ -6,7 +6,6 @@ import com.dossantos.hexagonal.adapters.out.SendCpfValidationAdapter;
 import com.dossantos.hexagonal.application.core.usecase.InsertCustomerUseCase;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
 @Configuration
 public class InsertCustomerConfig {
